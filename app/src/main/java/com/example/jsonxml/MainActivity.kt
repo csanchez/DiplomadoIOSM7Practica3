@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var volleyApi: VolleyApi
     private lateinit var url:String
-    private val ipPuerto="192.168.0.25:8080"
+    private val ipPuerto="10.2.18.124:8080"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
